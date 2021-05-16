@@ -1,0 +1,16 @@
+Package: TwoWayFEWeights
+Type: Package
+Title: Estimation of the Weights Attached to the Two-Way Fixed Effects Regressions
+Version: 0.1.0
+Authors@R:
+    c(person("Shuo", "Zhang", role = c("aut", "cre"), email = "shuo_zhang@ucsb.edu"),
+      person("Clément", "de Chaisemartin", role = "aut", email = "clementdechaisemartin@ucsb.edu"))
+Maintainer: Shuo Zhang <shuo_zhang@ucsb.edu>
+Description:
+    Estimates the weights and measure of robustness to treatment effect heterogeneity attached to two-way fixed effects regressions.
+    Clément de Chaisemartin, Xavier D'Haultfœuille (2020) <DOI: 10.1257/aer.20181169>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R(>= 3.4.0)
+Imports: dplyr (>= 1.0.0), fixest (>= 0.6.0), stringr, stats, estimatr, rlang
+Suggests: wooldridge
